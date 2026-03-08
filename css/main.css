@@ -8,7 +8,7 @@ body {
   box-sizing: border-box;
 }
 
-@theme {
+@root {
     --color-secondary: #F3F3F3;
     --color-primary: #B9FF66;
     --color-accent: #191A23;
