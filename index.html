@@ -33,10 +33,46 @@
             <img src="./images/logo.svg" alt="Positivus logo" class="w-6 h-6" />
             <span class="text-2xl font-medium">Positivus</span>
           </a>
-          <button class="text-2xl md:hidden">
-            <i class="fa-solid fa-bars"></i>
+          <button class="text-2xl md:hidden" id="menu-btn">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
           </button>
         </div>
+        <nav class="border rounded mt-4 hidden" id="mobile-menu">
+          <ul class="flex flex-col items-start gap-2 text-sm p-4">
+            <li>
+              <a href="#" class="hover:text-[#B9FF66] transition-colors"
+                >About us</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-[#B9FF66] transition-colors"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-[#B9FF66] transition-colors"
+                >Use Cases</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-[#B9FF66] transition-colors"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-[#B9FF66] transition-colors"
+                >Blog</a
+              >
+            </li>
+            <li class="w-full pt-4 flex justify-center">
+              <button
+                class="w-auto border border-black rounded-[10px] py-4 px-6 hover:bg-[#191A23] hover:text-white transition-all"
+              >
+                Request a quote
+              </button>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -394,7 +430,6 @@
           <div
             class="swiper-pagination [--swiper-pagination-color:white] [--swiper-pagination-bullet-inactive-color:white]"
           ></div>
-          
         </div>
       </div>
     </section>
@@ -697,7 +732,7 @@
                   >
                     <i class="fa-solid fa-arrow-left text-xl"></i>
                   </button>
-                 
+
                   <button
                     class="swiper-button-next-custom text-white hover:text-[#B9FF66] transition-colors cursor-pointer z-30"
                   >
@@ -736,7 +771,7 @@
                   >
                     <i class="fa-solid fa-arrow-left text-xl"></i>
                   </button>
-                  
+
                   <button
                     class="swiper-button-next-custom text-white hover:text-[#B9FF66] transition-colors cursor-pointer z-30"
                   >
@@ -774,7 +809,7 @@
                   >
                     <i class="fa-solid fa-arrow-left text-xl"></i>
                   </button>
-                  
+
                   <button
                     class="swiper-button-next-custom text-white hover:text-[#B9FF66] transition-colors cursor-pointer z-30"
                   >
@@ -787,7 +822,6 @@
           <div
             class="swiper-pagination [--swiper-pagination-color:white] [--swiper-pagination-bullet-inactive-color:white]"
           ></div>
-          
         </div>
       </div>
     </section>
