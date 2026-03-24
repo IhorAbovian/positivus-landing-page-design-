@@ -8,7 +8,12 @@ body {
   box-sizing: border-box;
 }
 
-.swiper {
+.projects-slider {
   width: 300px;
   height: 220px;
+}
+
+.feedback-slider {
+  width: 300px;
+  height: 500px;
 }
