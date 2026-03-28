@@ -17,3 +17,43 @@ body {
   width: 300px;
   height: 500px;
 }
+
+.ac {
+  border: 1px solid black !important;
+  border-bottom-width: 5px !important;
+  border-radius: 30px !important;
+  background-color: #f3f3f3 !important;
+  padding: 1.5rem !important;
+  margin: 0 !important;
+}
+
+.ac-header {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ac-panel {
+  overflow: hidden;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent !important;
+}
+
+.ac-trigger {
+  all: unset !important;
+  font-size: 1.875rem !important;
+  cursor: pointer !important;
+}
+
+.ac-trigger::before,
+.ac-trigger::after {
+  display: none !important;
+}
+
+.ac.is-active .ac-trigger i {
+  transform: rotate(45deg);
+}
+
+.ac.is-active {
+  background-color: #b9ff66 !important;
+}

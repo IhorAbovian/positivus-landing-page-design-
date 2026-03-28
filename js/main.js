@@ -33,3 +33,8 @@ menuBtn.addEventListener("click", () => {
     menuIcon.classList.replace("fa-bars", "fa-xmark");
   }
 });
+
+new Accordion('.accordion-container', {
+    duration: 400,
+    showMultiple: false,
+});

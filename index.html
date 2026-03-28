@@ -18,6 +18,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/accordion-js@3.4.1/dist/accordion.min.css"
+    />
+    <script src="https://unpkg.com/accordion-js@3.4.1/dist/accordion.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="../css/main.css" />
@@ -449,97 +454,162 @@
         <div class="text-base text-center mb-8">
           Step-by-Step Guide to Achieving Your Business Goals
         </div>
-        <div class="flex flex-col gap-2">
+
+        <div class="flex flex-col gap-2 accordion-container">
           <div
-            class="flex justify-between items-center px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
+            class="ac flex flex-col px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
           >
-            <div class="flex items-center gap-4">
-              <span class="text-3xl font-medium">01</span>
-              <h3
-                class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
-              >
-                Consultation
-              </h3>
+            <div class="flex justify-between items-center mb-4 ac-header">
+              <div class="flex items-center gap-4">
+                <span class="text-3xl font-medium">01</span>
+                <h3
+                  class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
+                >
+                  Consultation
+                </h3>
+              </div>
+              <a href="#" class="text-3xl ac-trigger">
+                <i class="fa-solid fa-circle-plus"></i>
+              </a>
             </div>
-            <a href="#" class="text-3xl flex-shrink-0 ml-2">
-              <i class="fa-solid fa-circle-plus"></i>
-            </a>
+            <div class="ac-panel">
+              <div class="px-2 text-gray-700 border-t border-black/10 pt-4">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
           </div>
 
           <div
-            class="flex justify-between items-center px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
+            class="ac flex flex-col px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
           >
-            <div class="flex items-center gap-4">
-              <span class="text-3xl font-medium">02</span>
-              <h3
-                class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
-              >
-                Research and Strategy Development
-              </h3>
+            <div class="flex justify-between items-center mb-4 ac-header">
+              <div class="flex items-center gap-4">
+                <span class="text-3xl font-medium">02</span>
+                <h3
+                  class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
+                >
+                  Research and Strategy Development
+                </h3>
+              </div>
+              <a href="#" class="text-3xl ac-trigger">
+                <i class="fa-solid fa-circle-plus"></i>
+              </a>
             </div>
-            <a href="#" class="text-3xl flex-shrink-0 ml-2">
-              <i class="fa-solid fa-circle-plus"></i>
-            </a>
+            <div class="ac-panel">
+              <div class="px-2 text-gray-700 border-t border-black/10 pt-4">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
           </div>
 
           <div
-            class="flex justify-between items-center px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
+            class="ac flex flex-col px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
           >
-            <div class="flex items-center gap-4">
-              <span class="text-3xl font-medium">03</span>
-              <h3
-                class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
-              >
-                Implementation
-              </h3>
+            <div class="flex justify-between items-center mb-4 ac-header">
+              <div class="flex items-center gap-4">
+                <span class="text-3xl font-medium">03</span>
+                <h3
+                  class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
+                >
+                  Implementation
+                </h3>
+              </div>
+              <a href="#" class="text-3xl ac-trigger">
+                <i class="fa-solid fa-circle-plus"></i>
+              </a>
             </div>
-            <a href="#" class="text-3xl flex-shrink-0 ml-2">
-              <i class="fa-solid fa-circle-plus"></i>
-            </a>
+            <div class="ac-panel">
+              <div class="px-2 text-gray-700 border-t border-black/10 pt-4">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
           </div>
 
           <div
-            class="flex justify-between items-center px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
+            class="ac flex flex-col px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
           >
-            <div class="flex items-center gap-4">
-              <span class="text-3xl font-medium">04</span>
-              <h3
-                class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
-              >
-                Monitoring and Optimization
-              </h3>
+            <div class="flex justify-between items-center mb-4 ac-header">
+              <div class="flex items-center gap-4">
+                <span class="text-3xl font-medium">04</span>
+                <h3
+                  class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
+                >
+                  Monitoring and Optimization
+                </h3>
+              </div>
+              <a href="#" class="text-3xl ac-trigger">
+                <i class="fa-solid fa-circle-plus"></i>
+              </a>
             </div>
-            <a href="#" class="text-3xl flex-shrink-0 ml-2">
-              <i class="fa-solid fa-circle-plus"></i>
-            </a>
+            <div class="ac-panel">
+              <div class="px-2 text-gray-700 border-t border-black/10 pt-4">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
           </div>
 
           <div
-            class="flex justify-between items-center px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
+            class="ac flex flex-col px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
           >
-            <div class="flex items-center gap-4">
-              <span class="text-3xl font-medium">05</span>
-              <h3 class="text-base font-medium leading-tight max-w-[180px]">
-                Reporting and Communication
-              </h3>
+            <div class="flex justify-between items-center mb-4 ac-header">
+              <div class="flex items-center gap-4">
+                <span class="text-3xl font-medium">05</span>
+                <h3
+                  class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
+                >
+                  Reporting and Communication
+                </h3>
+              </div>
+              <a href="#" class="text-3xl ac-trigger">
+                <i class="fa-solid fa-circle-plus"></i>
+              </a>
             </div>
-            <a href="#" class="text-3xl flex-shrink-0 ml-2">
-              <i class="fa-solid fa-circle-plus"></i>
-            </a>
+            <div class="ac-panel">
+              <div class="px-2 text-gray-700 border-t border-black/10 pt-4">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
           </div>
 
           <div
-            class="flex justify-between items-center px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
+            class="ac flex flex-col px-6 py-6 bg-[#F3F3F3] border border-black border-b-[5px] rounded-[30px] md:rounded-[45px]"
           >
-            <div class="flex items-center gap-4">
-              <span class="text-3xl font-medium">06</span>
-              <h3 class="text-base font-medium leading-tight max-w-[180px]">
-                Continual Improvement
-              </h3>
+            <div class="flex justify-between items-center mb-4 ac-header">
+              <div class="flex items-center gap-4">
+                <span class="text-3xl font-medium">06</span>
+                <h3
+                  class="text-base font-medium leading-tight max-w-[180px] md:max-w-none"
+                >
+                  Continual Improvement
+                </h3>
+              </div>
+              <a href="#" class="text-3xl ac-trigger">
+                <i class="fa-solid fa-circle-plus"></i>
+              </a>
             </div>
-            <a href="#" class="text-3xl flex-shrink-0 ml-2">
-              <i class="fa-solid fa-circle-plus"></i>
-            </a>
+            <div class="ac-panel">
+              <div class="px-2 text-gray-700 border-t border-black/10 pt-4">
+                During the initial consultation, we will discuss your business
+                goals and objectives, target audience, and current marketing
+                efforts. This will allow us to understand your needs and tailor
+                our services to best fit your requirements.
+              </div>
+            </div>
           </div>
         </div>
       </div>
