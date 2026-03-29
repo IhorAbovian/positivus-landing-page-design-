@@ -15,7 +15,12 @@ body {
 
 .feedback-slider {
   width: 300px;
-  height: 500px;
+  height: auto;
+  overflow: visible !important;
+}
+
+.feedback-slider .swiper-wrapper {
+  height: auto !important;
 }
 
 .ac {
