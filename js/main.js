@@ -1,10 +1,28 @@
-const projectsSwiper = new Swiper(".projects-slider", {
-  loop: true,
-  pagination: {
-    el: ".projects-slider .swiper-pagination",
-    clickable: true,
-  },
-});
+let projectsSwiper;
+const projectsSliderMedia = window.matchMedia("(max-width: 767px)");
+
+const toggleProjectsSwiper = () => {
+  if (projectsSliderMedia.matches) {
+    if (!projectsSwiper) {
+      projectsSwiper = new Swiper(".projects-slider", {
+        loop: true,
+        pagination: {
+          el: ".projects-slider .swiper-pagination",
+          clickable: true,
+        },
+      });
+    }
+    return;
+  }
+
+  if (projectsSwiper) {
+    projectsSwiper.destroy(true, true);
+    projectsSwiper = undefined;
+  }
+};
+
+toggleProjectsSwiper();
+projectsSliderMedia.addEventListener("change", toggleProjectsSwiper);
 
 const feedbackSwiper = new Swiper(".feedback-slider", {
   loop: true,

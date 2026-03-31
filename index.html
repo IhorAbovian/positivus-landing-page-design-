@@ -163,7 +163,7 @@
     </section>
 
     <section class="flex flex-col mt-10">
-      <div class="container mx-auto px-4 flex justify-center flex-col mb-10">
+      <div class="container mx-auto px-4 flex justify-center flex-col">
         <div class="flex flex-col md:flex-row items-center gap-6 mb-10">
           <h2 class="text-xl font-medium bg-[#B9FF66] rounded w-fit px-2">
             Services
@@ -456,25 +456,29 @@
     </div>
 
     <section>
-      <div class="container mx-auto px-4 p-8 text-center">
-        <div class="flex flex-col md:flex-row items-center gap-6 mb-10">
+      <div
+        class="container mx-auto px-4 py-8 md:py-16 text-center md:text-left"
+      >
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start gap-6 mb-10"
+        >
           <h2
             class="text-xl bg-[#B9FF66] inline-block font-medium rounded px-2 md:whitespace-nowrap"
           >
             Case Studies
           </h2>
 
-          <p class="text-base text-center md:text-left">
+          <p class="text-base text-center md:text-left md:max-w-2xl">
             Explore Real-Life Examples of Our Proven Digital Marketing Success
             through Our Case Studies
           </p>
         </div>
 
-        <div class="swiper projects-slider">
-          <div class="swiper-wrapper flex gap-2">
-            <div
-              class="swiper-slide text-white text-left mb-5 flex flex-col p-6 bg-[#191A23] rounded-[45px]"
-            >
+        <div
+          class="md:!hidden swiper projects-slider bg-[#191A23] rounded-[45px] p-6"
+        >
+          <div class="swiper-wrapper">
+            <div class="swiper-slide text-white text-left flex flex-col p-1">
               <p>
                 For a local restaurant, we implemented a targeted PPC campaign
                 that resulted in a 50% increase in website traffic and a 25%
@@ -483,47 +487,41 @@
 
               <a
                 href="#"
-                class="flex items-center gap-2 text-[#B9FF66] hover:underline mt-2"
+                class="flex items-center gap-2 text-[#B9FF66] hover:underline mt-6"
               >
                 <span>Learn more</span>
-
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
 
-            <div
-              class="swiper-slide text-white text-left mb-5 flex flex-col p-6 bg-[#191A23] rounded-[45px]"
-            >
+            <div class="swiper-slide text-white text-left flex flex-col p-1">
               <p>
-                For a local restaurant, we implemented a targeted PPC campaign
-                that resulted in a 50% increase in website traffic and a 25%
-                increase in sales.
+                For a B2B software company, we developed an SEO strategy that
+                resulted in a first page ranking for key keywords and a 200%
+                increase in organic traffic.
               </p>
 
               <a
                 href="#"
-                class="flex items-center gap-2 text-[#B9FF66] hover:underline mt-2"
+                class="flex items-center gap-2 text-[#B9FF66] hover:underline mt-6"
               >
                 <span>Learn more</span>
-
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
-            <div
-              class="swiper-slide text-white text-left mb-5 flex flex-col p-6 bg-[#191A23] rounded-[45px]"
-            >
+
+            <div class="swiper-slide text-white text-left flex flex-col p-1">
               <p>
-                For a local restaurant, we implemented a targeted PPC campaign
-                that resulted in a 50% increase in website traffic and a 25%
-                increase in sales.
+                For a national retail chain, we created a social media marketing
+                campaign that increased followers by 25% and generated a 20%
+                increase in online sales.
               </p>
 
               <a
                 href="#"
-                class="flex items-center gap-2 text-[#B9FF66] hover:underline mt-2"
+                class="flex items-center gap-2 text-[#B9FF66] hover:underline mt-6"
               >
                 <span>Learn more</span>
-
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
               </a>
             </div>
@@ -532,23 +530,79 @@
             class="swiper-pagination [--swiper-pagination-color:white] [--swiper-pagination-bullet-inactive-color:white]"
           ></div>
         </div>
+
+        <div
+          class="hidden md:block bg-[#191A23] rounded-[45px] px-12 py-14 text-white"
+        >
+          <div class="flex items-stretch divide-x divide-white/25">
+            <div class="flex-1 pr-8">
+              <p class="text-lg">
+                For a local restaurant, we implemented a targeted PPC campaign
+                that resulted in a 50% increase in website traffic and a 25%
+                increase in sales.
+              </p>
+
+              <a
+                href="#"
+                class="flex items-center gap-3 text-[#B9FF66] hover:underline mt-8 text-lg"
+              >
+                <span>Learn more</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="flex-1 px-8">
+              <p class="text-lg">
+                For a local restaurant, we implemented a targeted PPC campaign
+                that resulted in a 50% increase in website traffic and a 25%
+                increase in sales.
+              </p>
+
+              <a
+                href="#"
+                class="flex items-center gap-3 text-[#B9FF66] hover:underline mt-8 text-lg"
+              >
+                <span>Learn more</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+
+            <div class="flex-1 pl-8">
+              <p class="text-lg">
+                For a local restaurant, we implemented a targeted PPC campaign
+                that resulted in a 50% increase in website traffic and a 25%
+                increase in sales.
+              </p>
+
+              <a
+                href="#"
+                class="flex items-center gap-3 text-[#B9FF66] hover:underline mt-8 text-lg"
+              >
+                <span>Learn more</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="pb-10">
       <div class="container mx-auto px-4">
-        <div class="flex flex-col text-center mb-10">
-          <span
-            class="text-xl font-medium bg-[#B9FF66] self-center px-2 rounded"
-            >Our Working</span
-          >
-          <span
-            class="text-xl font-medium bg-[#B9FF66] self-center px-2 rounded"
-            >Process</span
-          >
-        </div>
-        <div class="text-base text-center mb-8">
-          Step-by-Step Guide to Achieving Your Business Goals
+        <div
+          class="flex flex-col md:flex-row items-center gap-6 text-center md:text-left mb-10"
+        >
+          <div class="inline-block">
+            <h2
+              class="text-xl font-medium bg-[#B9FF66] px-2 rounded whitespace-nowrap"
+            >
+              Our Working Process
+            </h2>
+          </div>
+
+          <p class="text-base md:max-w-xs leading-snug">
+            Step-by-Step Guide to Achieving Your Business Goals
+          </p>
         </div>
 
         <div class="flex flex-col gap-2 accordion-container">
