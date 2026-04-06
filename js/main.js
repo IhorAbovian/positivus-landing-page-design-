@@ -52,7 +52,28 @@ menuBtn.addEventListener("click", () => {
   }
 });
 
-new Accordion('.accordion-container', {
-    duration: 400,
-    showMultiple: false,
+new Accordion(".accordion-container", {
+  duration: 400,
+  showMultiple: false,
+});
+
+const teamCards = document.querySelectorAll(".team-card");
+const teamCardsMedia = window.matchMedia("(max-width: 767px)");
+
+const toggleTeamCards = () => {
+  teamCards.forEach((card) => {
+    card.classList.toggle("hidden", teamCardsMedia.matches);
+  });
+};
+
+toggleTeamCards();
+teamCardsMedia.addEventListener("change", toggleTeamCards);
+
+const showAllCards = document.getElementById("all-team-btn");
+showAllCards.addEventListener("click", () => {
+  teamCards.forEach((card) => {
+    card.classList.remove("hidden");
+    showAllCards.classList.add("hidden");
+  });
+
 });

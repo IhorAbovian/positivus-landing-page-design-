@@ -475,7 +475,7 @@
         </div>
 
         <div
-          class="md:!hidden swiper projects-slider bg-[#191A23] rounded-[45px] p-6"
+          class="md:hidden! swiper projects-slider bg-[#191A23] rounded-[45px] p-6"
         >
           <div class="swiper-wrapper">
             <div class="swiper-slide text-white text-left flex flex-col p-1">
@@ -766,36 +766,30 @@
     </section>
     <section>
       <div class="container mx-auto px-4">
-        <div class="flex flex-col gap-4">
-          <h2 class="text-xl text-center font-medium bg-[#B9FF66] self-center">
-            Team
-          </h2>
-          <p class="text-base text-center mb-4">
-            Meet the skilled and experienced team behind our successful digital
-            marketing strategies
+        <div class="flex flex-col gap-4 md:flex-row items-center md:items-start text-center md:text-left mb-10">
+          <div class="inline-block">
+            <h2 class="text-xl font-medium bg-[#B9FF66] px-2 rounded whitespace-nowrap">
+              Team
+            </h2>
+          </div>
+
+          <p class="text-base md:max-w-xs leading-snug">
+            Meet the skilled and experienced team behind our successful digital marketing strategies
           </p>
         </div>
-        <div class="flex flex-col gap-4">
-          <div
-            class="bg-white p-6 border border-black border-b-[5px] rounded-[45px]"
-          >
-            <div class="flex justify-between items-start">
-              <div class="flex gap-4">
-                <img
-                  src="./images/John.webp"
-                  alt="John Smith"
-                  class="w-16 h-16"
-                  loading="lazy"
-                  decoding="async"
-                />
 
-                <div class="flex flex-col justify-end text-nowrap">
-                  <span class="text-sm font-medium">John Smith</span>
-                  <span class="text-sm">CEO and Founder</span>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+          <div class="bg-white p-6 border border-black border-b-[5px] rounded-[45px] min-w-0">
+            <div class="flex justify-between items-start gap-4 min-w-0">
+              <div class="flex items-start gap-4 min-w-0">
+                <img src="./images/John.webp" alt="John Smith" class="w-16 h-16 shrink-0" loading="lazy" decoding="async" />
+                <div class="flex flex-col min-w-0">
+                  <span class="text-sm font-medium whitespace-normal leading-tight">John Smith</span>
+                  <span class="text-sm whitespace-normal leading-tight">CEO and Founder</span>
                 </div>
               </div>
 
-              <a href="#" class="text-2xl">
+              <a href="#" class="text-2xl shrink-0">
                 <i class="fa-brands fa-linkedin text-black"></i>
               </a>
             </div>
@@ -807,26 +801,18 @@
               PPC, and content strategy
             </p>
           </div>
-          <div
-            class="bg-white p-6 border border-black border-b-[5px] rounded-[45px]"
-          >
-            <div class="flex justify-between items-start">
-              <div class="flex gap-4">
-                <img
-                  src="./images/Jane.webp"
-                  alt="Jane Doe"
-                  class="w-16 h-16"
-                  loading="lazy"
-                  decoding="async"
-                />
 
-                <div class="flex flex-col justify-end text-nowrap">
-                  <span class="text-sm font-medium">Jane Doe</span>
-                  <span class="text-sm">Director of Operations</span>
+          <div class="bg-white p-6 border border-black border-b-[5px] rounded-[45px] min-w-0">
+            <div class="flex justify-between items-start gap-4 min-w-0">
+              <div class="flex items-start gap-4 min-w-0">
+                <img src="./images/Jane.webp" alt="Jane Doe" class="w-16 h-16 shrink-0" loading="lazy" decoding="async" />
+                <div class="flex flex-col min-w-0">
+                  <span class="text-sm font-medium whitespace-normal leading-tight">Jane Doe</span>
+                  <span class="text-sm whitespace-normal leading-tight">Director of Operations</span>
                 </div>
               </div>
 
-              <a href="#" class="text-2xl">
+              <a href="#" class="text-2xl shrink-0">
                 <i class="fa-brands fa-linkedin text-black"></i>
               </a>
             </div>
@@ -838,26 +824,18 @@
               Strong organizational and communication skills
             </p>
           </div>
-          <div
-            class="bg-white p-6 border border-black border-b-[5px] rounded-[45px]"
-          >
-            <div class="flex justify-between items-start">
-              <div class="flex gap-4">
-                <img
-                  src="./images/Michael.webp"
-                  alt="Michael Brown"
-                  class="w-16 h-16"
-                  loading="lazy"
-                  decoding="async"
-                />
 
-                <div class="flex flex-col justify-end text-nowrap">
-                  <span class="text-sm font-medium">Michael Brown</span>
-                  <span class="text-sm">Senior SEO Specialist</span>
+          <div class="bg-white p-6 border border-black border-b-[5px] rounded-[45px] min-w-0">
+            <div class="flex justify-between items-start gap-4 min-w-0">
+              <div class="flex items-start gap-4 min-w-0">
+                <img src="./images/Michael.webp" alt="Michael Brown" class="w-16 h-16 shrink-0" loading="lazy" decoding="async" />
+                <div class="flex flex-col min-w-0">
+                  <span class="text-sm font-medium whitespace-normal leading-tight">Michael Brown</span>
+                  <span class="text-sm whitespace-normal leading-tight">Senior SEO Specialist</span>
                 </div>
               </div>
 
-              <a href="#" class="text-2xl">
+              <a href="#" class="text-2xl shrink-0">
                 <i class="fa-brands fa-linkedin text-black"></i>
               </a>
             </div>
@@ -869,26 +847,64 @@
               keyword research and on-page optimization
             </p>
           </div>
-          <div
-            class="bg-white p-6 border border-black border-b-[5px] rounded-[45px]"
-          >
-            <div class="flex justify-between items-start">
-              <div class="flex gap-4">
-                <img
-                  src="./images/Emilly.webp"
-                  alt="Emily Johnson"
-                  class="w-16 h-16"
-                  loading="lazy"
-                  decoding="async"
-                />
 
-                <div class="flex flex-col justify-end text-nowrap">
+          <div class="bg-white p-6 border border-black border-b-[5px] rounded-[45px] min-w-0">
+            <div class="flex justify-between items-start gap-4 min-w-0">
+              <div class="flex items-start gap-4 min-w-0">
+                <img src="./images/Emilly.webp" alt="Emily Johnson" class="w-16 h-16 shrink-0" loading="lazy" decoding="async" />
+                <div class="flex flex-col min-w-0">
+                  <span class="text-sm font-medium whitespace-normal leading-tight">Emily Johnson</span>
+                  <span class="text-sm whitespace-normal leading-tight">PPC Manager</span>
+                </div>
+              </div>
+
+              <a href="#" class="text-2xl shrink-0">
+                <i class="fa-brands fa-linkedin text-black"></i>
+              </a>
+            </div>
+
+            <hr class="border-black my-4" />
+
+            <p class="text-sm">
+              3+ years of experience in paid search advertising. Skilled in
+              campaign management and performance analysis
+            </p>
+          </div>
+
+          <div class="team-card bg-white p-6 border border-black border-b-[5px] rounded-[45px] min-w-0">
+            <div class="flex justify-between items-start gap-4 min-w-0">
+              <div class="flex items-start gap-4 min-w-0">
+                <img src="./images/Emilly.webp" alt="Emily Johnson" class="w-16 h-16 shrink-0" loading="lazy" decoding="async" />
+                <div class="flex flex-col min-w-0">
+                  <span class="text-sm font-medium whitespace-normal leading-tight">Emily Johnson</span>
+                  <span class="text-sm whitespace-normal leading-tight">PPC Manager</span>
+                </div>
+              </div>
+
+              <a href="#" class="text-2xl shrink-0">
+                <i class="fa-brands fa-linkedin text-black"></i>
+              </a>
+            </div>
+
+            <hr class="border-black my-4" />
+
+            <p class="text-sm">
+              3+ years of experience in paid search advertising. Skilled in
+              campaign management and performance analysis
+            </p>
+          </div>
+
+          <div class="team-card bg-white p-6 border border-black border-b-[5px] rounded-[45px] min-w-0">
+            <div class="flex justify-between items-start gap-4 min-w-0">
+              <div class="flex items-start gap-4 min-w-0">
+                <img src="./images/Emilly.webp" alt="Emily Johnson" class="w-16 h-16 shrink-0" loading="lazy" decoding="async" />
+                <div class="flex flex-col min-w-0">
                   <span class="text-sm font-medium">Emily Johnson</span>
                   <span class="text-sm">PPC Manager</span>
                 </div>
               </div>
 
-              <a href="#" class="text-2xl">
+              <a href="#" class="text-2xl shrink-0">
                 <i class="fa-brands fa-linkedin text-black"></i>
               </a>
             </div>
@@ -901,9 +917,8 @@
             </p>
           </div>
         </div>
-        <button
-          class="rounded-[10px] w-full mt-8 border py-4 px-10 bg-[#191A23] text-white hover:bg-white hover:text-[#191A23]"
-        >
+
+        <button class="rounded-[10px] w-full mt-8 border py-4 px-10 bg-[#191A23] text-white hover:bg-white hover:text-[#191A23] md:hidden" id="all-team-btn">
           See all team
         </button>
       </div>
